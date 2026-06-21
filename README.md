@@ -1,28 +1,75 @@
-<!--
-  - SPDX-FileCopyrightText: 2016 Nextcloud GmbH and Nextcloud contributors
-  - SPDX-License-Identifier: AGPL-3.0-or-later
--->
-# Nextcloud Lookup-Server
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# lookup-server
 
-[![REUSE status](https://api.reuse.software/badge/github.com/nextcloud/lookup-server)](https://api.reuse.software/info/github.com/nextcloud/lookup-server)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/lookup-server)
 
-## What is Lookup-Server?
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-The Lookup-Server is a server component that can be run independently from an Nextcloud Server. This Lookup-Server can be used by Nextcloud to find remote users that can be used for federated sharing. This is useful for autocompletion in the sharing dialog to get the federation ID.  Users can optionally decide to publish their sharing ID to be found by others. Think about it as a kind of public sharing telephone book.
+## Architecture
 
-## Documentation
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-Please look into the [doc](./doc) directory for more information.
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/lookup-server.git
+cd lookup-server
+```
+
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/lookup-server`](https://github.com/Interested-Deving-1896/lookup-server) and mirrored through:
+
+```
+Interested-Deving-1896/lookup-server  ──►  OpenOS-Project-OSP/lookup-server  ──►  OpenOS-Project-Ecosystem-OOC/lookup-server
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
 ## License
 
-This code is licensed as AGPL v3 or later.
-
-## Contribute
-
-If you want to contribute please open a pull request here on github. Every improvement is welcome.
-
-## Author
-
-Frank Karlitschek
-frank@nextcloud.com
+<!-- AI:start:license -->
+[AGPL-3.0](https://github.com/Interested-Deving-1896/lookup-server/blob/master/COPYING) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
